@@ -21,11 +21,12 @@ nav ul {
     padding: 0;
 }
 nav a {
-    text-decoration: none;
-    display: block;
-    padding: 10;
-    background-color: peachpuff;
-    border: 1px solid #84f359;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgb(218, 183, 28);
+    border: 1px solid rgb(175, 231, 173);
+    text-align: center;
 }
 nav a:hover,
 nav a:focus {
