@@ -16,17 +16,14 @@ header, footer {
 .my-hobbies li:nth-child(odd) {
     background-color:mistyrose;
 }
-nav ul {
-    list-style: none;
-    padding: 0;
-}
+
 nav a {
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    background-color: rgb(218, 183, 28);
-    border: 1px solid rgb(175, 231, 173);
-    text-align: center;
+   text-decoration: none;
+   display: block;
+   padding: 10px;
+   background-color: gold;
+   border: 1px solid #848484;
+   color: black; 
 }
 nav a:hover,
 nav a:focus {
