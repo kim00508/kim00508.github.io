@@ -20,7 +20,7 @@ header, footer {
 .nav {
    text-decoration: none;
    display: block;
-   padding: 5px 5px;
+   padding: 5px;
    background-color: rgb(172, 228, 158);
    border: 1px solid #c76565;
    color: black
