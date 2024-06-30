@@ -5,12 +5,9 @@ body {
     justify-content: center;
 }
 
-.header {
-    text-align: center;
-}
 
 .starfish {
-    width: 100px;
+    width: 100%;
     height: auto;
 }
 
@@ -24,3 +21,4 @@ body {
     transform: translate(-50%, -50%);
     margin: 0;
 }
+
