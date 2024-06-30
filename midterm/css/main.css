@@ -21,4 +21,31 @@ body {
     transform: translate(-50%, -50%);
     margin: 0;
 }
+/* navigation bar  */
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
 
+.nav-item {
+    position:relative;
+    margin: 0 15px; 
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black; 
+    font-size: 18px; 
+    padding: 10px;
+}
+
+
+.navbar {
+    background-color: #D7E8EA; 
+    padding: 10px;
+    width: 98%; 
+    text-align: center;
+}
