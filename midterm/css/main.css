@@ -157,7 +157,7 @@ form input[type="radio"] {
 form button {
     width: 100px;
     padding: 10px;
-    border: none;
+    border: 1px solid black
     border-radius: 0;
     cursor: pointer;
     margin-top: 10px;
@@ -169,7 +169,7 @@ form button:hover {
 }
 
 footer {
-    text-align: center;
+    text-align: rihgt;
     padding: 10px;
     background-color: #cae2e1;
     box-sizing: border-box;
