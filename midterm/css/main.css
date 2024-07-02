@@ -82,3 +82,32 @@ nav ul li:not(:last-child)::after {
     height: 60%;
     border-right: 1px solid black;
 }
+
+/* main content */
+main {
+    background-color: #cae2e1;
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+.article-img {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
