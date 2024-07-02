@@ -34,6 +34,14 @@ body {
     display: block;
 }
 
+header, nav, main, footer {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #cae2e1;
+    box-sizing: border-box;
+}
+
 /* navigation styles */
 nav {
     background-color: #cae2e1;
