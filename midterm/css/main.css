@@ -144,3 +144,35 @@ fieldset {
     margin: 0;
 }
 
+.radio-group {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+form input[type="radio"] {
+    margin-right: 5px;
+}
+
+form button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+form button:hover {
+    background-color:aquamarine
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #cae2e1;
+    box-sizing: border-box;
+    width: 100*;
+    max-width: 800px;
+}
