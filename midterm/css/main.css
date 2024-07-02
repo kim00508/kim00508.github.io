@@ -64,3 +64,21 @@ nav ul li {
     text-align: center;
     position: relative;
 }
+
+nav ul li a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+nav ul li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 60%;
+    border-right: 1px solid black;
+}
