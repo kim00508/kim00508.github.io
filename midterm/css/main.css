@@ -155,6 +155,7 @@ form input[type="radio"] {
 form button {
     width: 100px;
     padding: 10px;
+    background-color:#cae2e1;
     border: 1px solid black
 }
 
