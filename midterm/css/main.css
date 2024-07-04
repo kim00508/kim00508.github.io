@@ -136,6 +136,10 @@ form textarea {
     box-sizing: border-box;
 }
 
+form input,form textarea {
+    resize: none;
+}
+
 fieldset {
     border: none;
     padding: 0;
