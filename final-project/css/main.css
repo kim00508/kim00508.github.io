@@ -389,7 +389,7 @@ header {
 #operation table th,
 #operation table td {
     border: 1px solid #222;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 #operation table th {
