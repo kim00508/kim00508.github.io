@@ -521,13 +521,21 @@ footer {
         font-size: 3rem;
     }
 
-    #team > div,
+    #team > div {
+        flex-direction: column;
+        margin: 1rem 0;
+    }
+    
     #team > div:nth-child(odd) {
         flex-direction: column;
         margin: 1rem 0;
     }
 
-    #team img,
+    #team img {
+        width: 100%;
+        height: auto;
+    }
+    
     #team > div > div {
         width: 100%;
         height: auto;
